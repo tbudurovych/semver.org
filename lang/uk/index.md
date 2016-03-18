@@ -31,10 +31,17 @@ title: Семантичне версіонування 2.0.0
 Пекло залежностей -- це, коли ви у ситуації замкнутих версій чи promiscuity (???)
 і це стримує подальший розвиток вашого проекту.
 
-As a solution to this problem, I propose a simple set of rules and
-requirements that dictate how version numbers are assigned and incremented.
-These rules are based on but not necessarily limited to pre-existing
-widespread common practices in use in both closed and open-source software.
+Щоб вирішити ці проблеми, я пропоную простий набір правил та
+вимог, що диктують як присвоювати та збільшувати номери версій.
+Ці правила базуються (але не обмежуються) на існуючих поширених спільних практиках,
+що вживаются у розробці закритого та відкритого програмного забезпечення.
+Для того, щоб ця система працювала, вам потрібно оголосити публічне API. Воно може
+бути як у вигляді документації, так і бути спричиненим кодом. Це не важливо.
+Важливо, щоб воно було зрозумілим та точним. Коли ви вже визначилися зі своїм публічним
+API, ви супроводжуєте зміни до нього із відповідними змінами до номерів
+версій. У форматі X.Y.Z (Major.Minor.Patch, тобто Мажор.Мінор.Латка). Залагоджкння вад,
+що не впливає на API, збільшує лише номер латки, зворотньо-сумісні зміни чи доповнення до API
+збільшують мінорну версію, ...
 For this system to work, you first need to declare a public API. This may
 consist of documentation or be enforced by the code itself. Regardless, it is
 important that this API be clear and precise. Once you identify your public
