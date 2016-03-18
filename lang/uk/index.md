@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Сeмантичне версіонування 2.0.0
+title: Семантичне версіонування 2.0.0
 ---
 
 Сeмантичне версіонування 2.0.0
@@ -20,19 +20,16 @@ title: Сeмантичне версіонування 2.0.0
 Вступ
 ------------
 
-In the world of software management there exists a dread place called
-"dependency hell." The bigger your system grows and the more packages you
-integrate into your software, the more likely you are to find yourself, one
-day, in this pit of despair.
+У світі розробки програмного забезпечення існує dread(???) місце під назвою "пекло залежностей". Чим більше розростається ваша система та інтегрує в себе пакетів, тим більший ризик того, що ви там pit (???) dispair(???) опинетеся.
 
-In systems with many dependencies, releasing new package versions can quickly
-become a nightmare. If the dependency specifications are too tight, you are in
-danger of version lock (the inability to upgrade a package without having to
-release new versions of every dependent package). If dependencies are
-specified too loosely, you will inevitably be bitten by version promiscuity
-(assuming compatibility with more future versions than is reasonable).
-Dependency hell is where you are when version lock and/or version promiscuity
-prevent you from easily and safely moving your project forward.
+У системі з багатьма залежностями випуск нових версій пакетів можe швидко
+перетворитися на нічні жахіття. Якщо залежності занадто тісні, то ви у
+небезпеці замкнутих версій (неможливість оновити один пакет без випуску
+нових версій кожного з залежних пакетів). У випадку, якщо залежності
+занадто слабкі, ви обов'язково стикнетеся з promiscuity (???)
+(більш ніж резонне допускання сумісності з наступними версіями).
+Пекло залежностей -- це, коли ви у ситуації замкнутих версій чи promiscuity (???)
+і це стримує подальший розвиток вашого проекту.
 
 As a solution to this problem, I propose a simple set of rules and
 requirements that dictate how version numbers are assigned and incremented.
