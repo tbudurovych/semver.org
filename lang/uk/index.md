@@ -49,12 +49,12 @@ API, ви супроводжуєте зміни до нього із відпо�
 від однієї версії до наступної.
 
 
-Semantic Versioning Specification (SemVer)
+Інструкція по семантичному версієутворенню (SemVer)
 ------------------------------------------
 
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
-"SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be
-interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
+Ключові слова "МУСИТЬ"(must), "МУСИТЬ НЕ"(must not), "ЗОБОВ'ЯЗАНИЙ"(required), "БУДЕ"(shall), "БУДЕ НЕ"(should not), "ПОВИНЕН" (should),
+"ПОВИНЕН НЕ"(should not), "БАЖАНО"(recommended), "МОЖЕ"(may) та "НЕОБОВ'ЯЗКОВО"(optional) в цьому документі повинні
+сприйматися так, як у [RFC 2119](http://tools.ietf.org/html/rfc2119).
 
 1. Software using Semantic Versioning MUST declare a public API. This API
 could be declared in the code itself or exist strictly in documentation.
