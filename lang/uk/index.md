@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Семантичне версіонування 2.0.0
+title: Семантичне версієутворення 2.0.0
 ---
 
-Сeмантичне версіонування 2.0.0
+Сeмантичне версієутворення 2.0.0
 ==============================
 
 Огляд
@@ -41,19 +41,12 @@ title: Семантичне версіонування 2.0.0
 API, ви супроводжуєте зміни до нього із відповідними змінами до номерів
 версій. У форматі X.Y.Z (Major.Minor.Patch, тобто Мажор.Мінор.Латка). Залагоджкння вад,
 що не впливає на API, збільшує лише номер латки, зворотньо-сумісні зміни чи доповнення до API
-збільшують мінорну версію, ...
-For this system to work, you first need to declare a public API. This may
-consist of documentation or be enforced by the code itself. Regardless, it is
-important that this API be clear and precise. Once you identify your public
-API, you communicate changes to it with specific increments to your version
-number. Consider a version format of X.Y.Z (Major.Minor.Patch). Bug fixes not
-affecting the API increment the patch version, backwards compatible API
-additions/changes increment the minor version, and backwards incompatible API
-changes increment the major version.
+збільшують мінорну версію, а зворотньо-несумісні зміни в API
+спричиняють збільшення мажорної версії.
 
-I call this system "Semantic Versioning." Under this scheme, version numbers
-and the way they change convey meaning about the underlying code and what has
-been modified from one version to the next.
+Я назвав цю систему "Семантичне версієутворення". Слідуючи цій схемі, зміна номерів версій
+(convey meaning???) коду, що їм відповідає та тому, що було змінено
+від однієї версії до наступної.
 
 
 Semantic Versioning Specification (SemVer)
